@@ -39,15 +39,64 @@ greeter1 = "Hallo allemaal";
 // console.log("2" + "2" - 6) // geeft 16
 
 const houseNumber = 12;
-console.log(houseNumber);
+// console.log(houseNumber);
 const street = "Prinsenlaan";
-console.log(street);
+// console.log(street);
 const address = street + houseNumber; // geeft “Prinsenlaan12” (zonder spatie)
-console.log(address);
+// console.log(address);
 const score1 = "zeven";
-console.log(score1);
+// console.log(score1);
 const score2 = "vier";
-console.log(score2);
+// console.log(score2);
 const total = score1 * score2;
-console.log(total);
-// geeft NaN (Not A Number) want je kunt “zeven” en “vier” niet converteren naar een getal
+// console.log(total);
+// Geeft NaN (Not A Number) want je kunt “zeven” en “vier” niet converteren naar een getal
+
+// H2.7 Beslissingsstructuren
+// let grade = 8;
+// if (grade >= 5.5) {
+//     // het eerste blok wordt uitgevoerd als de conditie true is
+//     console.log("Je hebt het gehaald!");
+// } else {
+//     // het tweede blok wordt uitgevoerd als de conditie false is
+//     console.log("Je hebt het niet gehaald..");
+// }
+// code gaat hier weer verder
+
+// if (recipe !== undefined) { // als recipe al toegewezen is..
+//     // print dan de naam van het recept
+//     console.log("Vandaag maken we het recept: " + recipe);
+// } else {
+//     recipe = "Spinazie lasagne"; // en anders… wijs recipe toe
+// }
+
+// const grade = 4;
+// const isPassed = grade >= 5.5;  // geeft false
+// console.log("Student passed: " + isPassed) // geeft "Student passed: false"
+
+// if ((ingredients !== undefined) && (ingredients.length > 3)) {
+//     console.log("We kunnen boodschappen doen!");
+// }
+
+const grade = 8.7;
+
+if (grade < 5.5) {
+    console.log('Onvoldoende');
+} else if ((grade >= 5.5 && grade < 8)) {
+    console.log('Voldoende');
+} else {
+    console.log('Goed');
+} // geeft “Goed” want geen van bovenstaande condities is waar op dit moment
+
+// een andere manier:
+const grade1 = 8.7;
+
+if (grade1 < 5.5) {
+    console.log('Onvoldoende');
+}
+if ((grade1 >= 5.5 && grade < 8)) {
+    console.log('Voldoende');
+}
+if (grade1 >= 8){
+    console.log('Goed');
+}
