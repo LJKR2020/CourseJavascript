@@ -63,3 +63,5 @@ console.log(numberOfChildren);
 // ==========================================
 
 // I checked my work after every exercise and it worked.
+// I checked my work with the answer sheet. Everything is correct.
+// Tips: declarate the variables in one sentence. Even if you want to override the value later on.
