@@ -3,10 +3,12 @@
 // Log dit in de terminal.
 
 const personalia = {
-    firstname: 'Loredana',
-    lastname: 'Rietveld',
+    firstname: 'LJ',
+    lastname: 'KR',
     age: 31,
-    dateOfBirth: '28-08-1990',
+    // dateOfBirth: '28-08-1990',
+    dateOfBirth: new Date(1990, 7, 29)
+    // fixed dateObject
 }
 
 console.log(personalia);
@@ -16,6 +18,8 @@ console.log(personalia);
 // "Hoi! Ik ben <voornaam>, ik ben <leeftijd> jaar oud."
 
 console.log('Hoi! ik ben', personalia.firstname, ', ik ben', personalia.age, 'jaar oud.')
+// In de uitwerkingen branch wordt + gebruikt. Ik heb gemerkt dat je dan spaties
+// moet toevoegen en met een , hoeft dat niet.
 
 // === Opdracht 3: bekijk het volgende object ===
 
@@ -48,3 +52,5 @@ console.log(product['b-h-d']);
 
 const productText = 'De' + product.productName + ' is gemaakt van ' + product.material[0] + ' en ' + product.material[1];
 console.log(productText)
+
+// Blijf opletten dat je concequent bent met "" of '' dan wel het toevoegen van ; of niet.

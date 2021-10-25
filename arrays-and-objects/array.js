@@ -2,7 +2,7 @@
 // 1. Declareer een variabele en sla daar een array met vier jaartallen (zoals 2021) in op. Log dit in de terminal.
 // ==========================================
 
-const years = ['1990', '2008', '2019', '2020'];
+const years = [1990, 2008, 2019, 2020];
 console.log(years);
 
 // ==========================================
@@ -49,6 +49,9 @@ console.log(numberOrder);
 // ==========================================
 
 const ingredients = ['bladerdeeg', 'knoflook', 'spinazie'];
-ingredients[0] = 'lasagna bladen';
+ingredients[0] = 'lasagne bladen';
 console.log(ingredients);
 console.log(ingredients.length);
+
+// fixed grammar and exercises 1
+// exercise 1 had strings with a number in it. You dont need that.
