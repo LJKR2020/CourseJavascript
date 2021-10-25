@@ -56,6 +56,13 @@ const temperature = 23;
 
 if (isRaining === false && temperature >= 21) {
     console.log('Je kunt een korte broek aan!');
-} else {
-    console.log('Doe een jas aan!');
 }
+// else {
+//     console.log('Doe een jas aan!');
+// }
+if (isRaining || temperature < 12) {
+    console.log("Doe een jas aan!");
+}
+
+// I checked my work with the answer sheet. I forgot the last statement and used else instead.
+// Good reading is key here!

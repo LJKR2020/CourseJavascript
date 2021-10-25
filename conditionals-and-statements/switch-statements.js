@@ -95,3 +95,5 @@ if (heartrate === 'green') {
 else {
     console.log('Hartslag onbekend');
 }
+
+// I compared the answers with the answers sheet. I could have combined the statements with te same outcome.
