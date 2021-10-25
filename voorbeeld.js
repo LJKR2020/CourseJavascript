@@ -124,3 +124,8 @@ for (let i = 0; i < recipe.ingredients.length; i++) {
 // recipe.cookingTime = 55;
 // aanpspreken met blokhaaksyntax:
 // recipe['cookingTime'] = 55;
+
+// 3.4 lussen
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
