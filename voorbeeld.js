@@ -100,3 +100,27 @@ if ((grade1 >= 5.5 && grade < 8)) {
 if (grade1 >= 8){
     console.log('Goed');
 }
+
+// 3.2 objecten
+
+const recipe = {
+    name: 'Spinazie lasagne',
+    cookingTime: 45,
+    isGlutenFree: false,
+    ingredients: ['Lasagne bladen', 'Spinazie', 'Kaas'],
+    printInfo: () => {
+        console.log('Dit recept is niet glutenvrij.');
+    }
+};
+
+if (recipe.isGlutenFree) {
+    console.log('Bevat geen gluten!');
+}
+
+for (let i = 0; i < recipe.ingredients.length; i++) {
+    console.log(recipe.ingredients[i]);
+}
+// aanspreken met puntnotatie:
+// recipe.cookingTime = 55;
+// aanpspreken met blokhaaksyntax:
+// recipe['cookingTime'] = 55;
