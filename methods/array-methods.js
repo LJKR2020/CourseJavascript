@@ -51,3 +51,5 @@ const cities = ["Utrecht", "Maastricht", "Eindhoven"];
 
 cities.splice(1, 0, "Amsterdam");
 console.log(cities);
+
+// All my answers are the same with the answer sheet.
