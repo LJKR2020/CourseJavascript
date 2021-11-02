@@ -18,6 +18,12 @@ const currentMoment = new Date();
 console.log(currentMoment.getHours());
 console.log(currentMoment.getMinutes());
 
+//teacher
+const today = new Date();
+const hours = today.getHours();
+const minutes = today.getMinutes();
+console.log(hours, minutes);
+// my answers works to, but the one of the teacher saves the answer in a variable. IS BETTER!
 
 /* Opdracht 2 */
 // Format het date-object dat je bij de vorige vraag hebt gemaakt naar een
@@ -47,3 +53,5 @@ const shortoptions = {
 
 const dutchShortDate = currentMoment.toLocaleDateString('nl-NL', shortoptions);
 console.log(dutchShortDate);
+
+// the rest of my answers are the same
