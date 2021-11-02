@@ -15,6 +15,7 @@ const fruit = "Banaan";
 const vegetable = "Aardappel";
 
 console.log(fruit.localeCompare(vegetable));
+console.log(fruit.length > vegetable.length)
 
 
 /* Opdracht 2 */
@@ -25,6 +26,14 @@ console.log(fruit.localeCompare(vegetable));
 
 console.log(fruit.charAt(fruit.length - 1));
 console.log(vegetable.charAt(vegetable.length - 1));
+
+// teacher
+const lastIndexFruit = fruit.length - 1;
+const lastIndexVegetable = vegetable.length - 1;
+const lastfruit = fruit.substring(lastIndexFruit);
+const lastvegetable = vegetable.substring(lastIndexVegetable);
+
+console.log(lastfruit, lastvegetable);
 
 /* Opdracht 3 */
 //  Haal de spaties aan het begin en eind van onderstaande zin weg en
@@ -51,6 +60,11 @@ console.log(story.includes("Fantastisch"));
 const firstLine = story.split(".")
 console.log(firstLine[0]);
 
+//teacher
+const endOfSentence = story.indexOf(".");
+const sentence = story.substring(0, endOfSentence + 1);
+console.log(sentence);
+
 /* Opdracht 6 */
 // Maak van onderstaand bedrag een Nederlands bedrag door het volgende te doen:
 // * Vervang het dollar-teken voor een euro-teken
@@ -63,6 +77,6 @@ const euro = price.replace("$", "€")
 const komma = euro.replace(".", ",")
 console.log(komma);
 
-
-
-
+//teacher
+const euroPrice = price.replace("$", "€").replace(".", ",");
+console.log(euroPrice);
