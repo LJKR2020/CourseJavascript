@@ -25,11 +25,19 @@ diameter = 12;
 circle = diameter * Math.PI;
 console.log(Math.round(circle));
 
+//teacher
+const roundedOmtrek = math.round(12 * Math.PI);
+console.log(roundedOmtrek);
+
 /* Opdracht 3: */
 // Bereken de wortel van 9 en log dit in de terminal
 // ---- Verwachte uitkomst: 3
 
 console.log(Math.sqrt(9));
+
+//teacher
+const root = Math.sqrt(9);
+console.log(root);
 
 /* Opdracht 4: */
 // Genereer een willekeurig getal tussen de 0 en 1 en doe dan een check:
@@ -48,3 +56,5 @@ if (number > 0.5) {
 if (number < 0.5) {
     console.log('Het glas is half leeg');
 }
+
+// the rest of my answers are the same with the answer sheet.
