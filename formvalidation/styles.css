@@ -2,8 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
-    background-color: #8fbc8f;
+    align-items: flex-start;
+    background-color: hsl(160, 80%, 50%);
     max-width: 300px;
     padding: 20px;
+}
+
+span {
+    color: #a52a2a;
 }
