@@ -8,13 +8,16 @@
 <body>
 <section class="container">
     <h2>Registreren</h2>
-    <p>Gebruikersnaam:</p>
-    <input type="email" placeholder="Vul hier uw e-mailadres in." />
-    <p>Wachtwoord:</p>
-    <input type="password" placeholder="Vul hier uw wachtwoord in." />
-    <p>
-        <button type="submit">Registreer</button>
-    </p>
+    <label for="emailinput">Gebruikersnaam:</label>
+    <input id="emailinput" type="email" placeholder="Vul hier uw e-mailadres in." />
+    <span id="emailcheck"></span>
+    <br>
+    <label for="passwordinput">Wachtwoord:</label>
+    <input id="passwordinput" type="password" placeholder="Vul hier uw wachtwoord in." />
+    <span id="passwordcheck"></span>
+    <br>
+    <button type="submit">Registreer</button>
 </section>
+<script type="module" src="main.js"></script>
 </body>
 </html>
