@@ -26,7 +26,7 @@ circle = diameter * Math.PI;
 console.log(Math.round(circle));
 
 //teacher
-const roundedOmtrek = math.round(12 * Math.PI);
+const roundedOmtrek = Math.round(12 * Math.PI);
 console.log(roundedOmtrek);
 
 /* Opdracht 3: */
