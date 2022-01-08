@@ -13,7 +13,7 @@ function validateEmail(e) {
 }
 
 function validatePassword(e) {
-    if (e.target.value === '' || e.target.value.length < 6) {
+    if (e.target.value.length > 0 && e.target.value.length < 6) {
         passwordwarning.textContent = 'Wachtwoord is tekort, gebruik minimaal 6 tekens'
     } else {
         passwordwarning.textContent = '';
