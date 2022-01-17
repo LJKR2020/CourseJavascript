@@ -1,0 +1,23 @@
+{
+  "name": "coursejavascript-h1",
+  "version": "1.0.0",
+  "description": "Javascript theorie assignments",
+  "main": "mathematical-operators.js",
+  "scripts": {
+    "test": "npx jest",
+    "test-watch": "npx jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJKR2020/CourseJavascript.git"
+  },
+  "author": "LJKR2020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LJKR2020/CourseJavascript/issues"
+  },
+  "homepage": "https://github.com/LJKR2020/CourseJavascript#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
